@@ -1,0 +1,119 @@
+*{
+  margin:0;
+  padding:0;
+  font-family: "Verdana";
+}
+
+.container {
+  border: 1px solid black;
+  display: inline-block;
+  padding: 20px;
+  width: 1000px;
+}
+
+.user-profile{
+  text-align: center;
+  display:inline-block;
+  background-color: #aaf;
+  color:white;
+  height: 50px;
+  width:170px;
+  padding:20px;
+  margin:10px;
+}
+.user-profile:hover{
+  background-color: #99d;
+  cursor:pointer; 
+}
+
+
+/****************
+ * PROFILE PAGE
+ ****************/
+#profile-name{
+  font-weight: bolder;
+  font-size: 2em;
+}
+#profile-student{
+  color:#8c8;
+  font-weight: bolder;
+  border-radius: 5px;
+  display:inline-block;
+  padding:5px;
+  margin: 0px 10px;
+}
+#profile-balance{
+  display:inline-block;
+  margin: 0px 10px;
+
+}
+#profile-info{
+  border-bottom:3px solid #aaf;
+  color: #aaf;
+  background-color: #fff;
+}
+
+.section{
+  margin: 20px 0px;
+  padding:20px;
+  background-color: #aaf;
+  color:white;
+  max-width: 600px;
+}
+
+#class-list, #payment-btn-list{
+  width:100%;
+  text-align: left;
+  margin-top:10px;
+}
+.class div{
+  display:inline-block;
+}
+.class{
+  background-color:white;
+  border:1px solid white;
+  color:black;
+  display:block;
+  padding:10px;
+}
+.class:hover{
+  cursor: pointer;
+  background-color:rgb(95, 179, 221);
+  border:1px solid rgb(95, 179, 221);
+}
+.class.selected{
+  background-color: rgb(115, 199, 241);
+  border:1px solid rgb(95, 179, 221);
+}
+
+.button{
+  padding:10px;
+  border:none;
+  color:white;
+  background-color:gray;  
+}
+
+select{
+  display:block;
+  width:100px;
+  height:30px;
+}
+
+.payment-btn{
+background-color: white;
+color:black;
+}
+
+.payment-btn:hover{
+  cursor: pointer;
+  background-color:rgb(95, 179, 221);
+  border:1px solid rgb(95, 179, 221);
+}
+.payment-btn.selected{
+  background-color: rgb(115, 199, 241);
+  border:1px solid rgb(95, 179, 221);
+}
+
+.hidden {
+  display: none;
+}
