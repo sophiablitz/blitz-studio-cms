@@ -10,16 +10,24 @@
   padding: 20px;
   width: 1000px;
 }
+.section.heading{
+  border-bottom:3px solid #aaf;
+  color: #aaf;
+  background-color: #fff;
+}
 
+#user-profiles{
+  background-color:#eef;
+  padding:20px;
+}
 .user-profile{
   text-align: center;
   display:inline-block;
   background-color: #aaf;
   color:white;
-  height: 50px;
-  width:170px;
+  width:200px;
   padding:20px;
-  margin:10px;
+  margin: 10px;
 }
 .user-profile:hover{
   background-color: #99d;
@@ -48,9 +56,6 @@
 
 }
 #profile-info{
-  border-bottom:3px solid #aaf;
-  color: #aaf;
-  background-color: #fff;
 }
 
 .section{
@@ -58,7 +63,7 @@
   padding:20px;
   background-color: #aaf;
   color:white;
-  max-width: 600px;
+  max-width: auto;
 }
 
 #class-list, #payment-btn-list{
@@ -76,21 +81,27 @@
   display:block;
   padding:10px;
 }
+div.done-icon{
+  display: none;
+}
+.selected div.done-icon{
+  display: inline-block;
+}
+
 .class:hover{
   cursor: pointer;
   background-color:rgb(95, 179, 221);
   border:1px solid rgb(95, 179, 221);
 }
-.class.selected{
-  background-color: rgb(115, 199, 241);
-  border:1px solid rgb(95, 179, 221);
-}
 
 .button{
   padding:10px;
-  border:none;
-  color:white;
-  background-color:gray;  
+
+
+  color: #aaf;
+  background-color:white;
+  border:1px solid #aaf;
+  border-radius: 5px;
 }
 
 select{
@@ -100,20 +111,43 @@ select{
 }
 
 .payment-btn{
-background-color: white;
-color:black;
+  background-color: white;
+  color:black;
+  margin:3px;
 }
 
 .payment-btn:hover{
   cursor: pointer;
-  background-color:rgb(95, 179, 221);
-  border:1px solid rgb(95, 179, 221);
+  background-color:#66c;
+  border:1px solid #55b;
+  color: #aaf;
 }
 .payment-btn.selected{
-  background-color: rgb(115, 199, 241);
-  border:1px solid rgb(95, 179, 221);
+  background-color: #77d;
+  border:1px solid white;
+  color:white;
 }
 
+#back-btn{
+  color: #aaf;
+  background-color:white;
+  border:1px solid #aaf;
+  border-radius: 5px;
+}
+#submit-btn, #save-btn{
+  background-color: rgb(115, 199, 241);
+  border:1px solid rgb(95, 179, 221);
+  color:white;
+  font-weight:bolder;
+}
+
+#profileUpdateErrorDiv{
+  background-color:#faa;
+  color:#822;
+  border: 1px solid #822;
+  padding:5px;
+
+}
 .hidden {
   display: none;
 }
